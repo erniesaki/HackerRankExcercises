@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.*;
 import java.io.*;
 import java.text.*;
@@ -100,5 +101,27 @@ public class HackerRank1 {
         String a = Integer.toString(input1);
         System.out.println(a);
 
+    }
+    public void dateTime(){
+        Scanner scanner = new Scanner(System.in);
+        int month = scanner.nextInt();
+        int day = scanner.nextInt();
+        int year = scanner.nextInt();
+        LocalDate date = LocalDate.of(year,month,day);
+        System.out.println(date.getDayOfWeek());
+    }
+    public void currency(){
+        Scanner scanner = new Scanner(System.in);
+        double payment = scanner.nextDouble();
+        scanner.close();
+        Locale newIndia = new Locale("en","IN");
+        NumberFormat us    = NumberFormat.getCurrencyInstance(Locale.US);
+        NumberFormat india  = NumberFormat.getCurrencyInstance(newIndia);
+        NumberFormat china  = NumberFormat.getCurrencyInstance(Locale.CHINA);
+        NumberFormat france = NumberFormat.getCurrencyInstance(Locale.FRANCE);
+        System.out.println("US: " + us.format(payment));
+        System.out.println("India: " + india.format(payment));
+        System.out.println("China: " + china.format(payment));
+        System.out.println("France: " + france.format(payment));
     }
 }

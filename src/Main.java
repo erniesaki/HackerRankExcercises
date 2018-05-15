@@ -9,6 +9,8 @@ public class Main {
         //hkr.loop1();
         //hkr.primitive();
         //hkr.endOfFile();
-        hkr.intToString(1);
+        //hkr.intToString(1);
+        //hkr.dateTime();
+        hkr.currency();
     }
 }
