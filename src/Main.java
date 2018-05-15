@@ -8,6 +8,7 @@ public class Main {
         //hkr.formating();
         //hkr.loop1();
         //hkr.primitive();
-        hkr.endOfFile();
+        //hkr.endOfFile();
+        hkr.intToString(1);
     }
 }

@@ -95,4 +95,10 @@ public class HackerRank1 {
             System.out.println(a + " " + scanner.nextLine());
             a++;
         }
-    } }
+    }
+    public void intToString(int input1){
+        String a = Integer.toString(input1);
+        System.out.println(a);
+
+    }
+}
