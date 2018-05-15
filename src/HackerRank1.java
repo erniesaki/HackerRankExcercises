@@ -55,4 +55,28 @@ public class HackerRank1 {
     public void loop2() {
 
     }
-}
+    public void primitive(){
+        Scanner scanner=new Scanner(System.in);
+        int inpt1 = scanner.nextInt();
+        for(int a=0;a<inpt1;a++) {
+            try {
+                long inpt2 = scanner.nextLong();
+                System.out.println(inpt2 + " this can be fitted in:");
+                if (inpt2 >= -128 && inpt2 <= 127) {
+                    System.out.println("* byte");
+                }
+                if (inpt2 >= -Math.pow(2, 15) && inpt2 <= Math.pow(2, 15) - 1) {
+                    System.out.println("* short");
+                }
+                if (inpt2 >= -Math.pow(2, 31) && inpt2 <= Math.pow(2, 31) - 1) {
+                    System.out.println("* int");
+                }
+                if (inpt2 >= -Math.pow(2, 63) && inpt2 <= Math.pow(2, 63) - 1) {
+                    System.out.println("* long");
+                }
+                  }catch(Exception e){
+                    System.out.println(scanner.next() + " can't be fitted anywhere.");
+                }
+            }
+        }
+    }

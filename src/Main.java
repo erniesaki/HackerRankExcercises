@@ -6,6 +6,7 @@ public class Main {
         //hkr.statement1();
         //hkr.scanner2();
         //hkr.formating();
-        hkr.loop1();
+        //hkr.loop1();
+        hkr.primitive();
     }
 }
