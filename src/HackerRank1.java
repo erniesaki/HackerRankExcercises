@@ -92,6 +92,7 @@ public class HackerRank1 {
         int inpt1 = scanner.nextInt();
         int a = 0;
         while (scanner.hasNext()) {
-            System.out.println(a + " " + scanner.nextLine() + a++);
+            System.out.println(a + " " + scanner.nextLine());
+            a++;
         }
     } }

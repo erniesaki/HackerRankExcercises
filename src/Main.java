@@ -7,6 +7,7 @@ public class Main {
         //hkr.scanner2();
         //hkr.formating();
         //hkr.loop1();
-        hkr.primitive();
+        //hkr.primitive();
+        hkr.endOfFile();
     }
 }
