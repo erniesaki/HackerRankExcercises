@@ -13,5 +13,7 @@ public class Main {
         //hkr.intToString(1);
         //hkr.dateTime();
         //hkr.currency();
+        //--------------//
+        hkr1.javaStrings();
     }
 }
