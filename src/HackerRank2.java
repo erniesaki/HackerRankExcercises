@@ -14,4 +14,11 @@ public class HackerRank2 {
         System.out.println(inpt1.compareTo(inpt2)>0?"YES":"NO");
         System.out.println(inpt1.substring(0,1).toUpperCase()+inpt1.substring(1, inpt1.length())+" "+inpt2.substring(0,1).toUpperCase()+inpt2.substring(1, inpt2.length()));
     }
+    public void subString(){
+        Scanner scanner = new Scanner(System.in);
+        String inpt1 = scanner.next();
+        int start = scanner.nextInt();
+        int end = scanner.nextInt();
+        System.out.println(inpt1.substring(start, end));
+    }
 }

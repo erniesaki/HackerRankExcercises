@@ -14,6 +14,7 @@ public class Main {
         //hkr.dateTime();
         //hkr.currency();
         //--------------//
-        hkr1.javaStrings();
+        //hkr1.javaStrings();
+        hkr1.subString();
     }
 }
